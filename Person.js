@@ -1,6 +1,7 @@
-class Person{
-    constructor("name")
+class Person {
+  constructor(name) {
+    this.name = name;
+    this.health = 100;
+    this.weapon = null;
+  }
 }
-
-let health = 100;
-let weapon = null;
